@@ -19,6 +19,7 @@
 		813A9845216CAFDD00107B63 /* TYPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 813A983C216CAFDD00107B63 /* TYPageControl.m */; };
 		813A9846216CAFDD00107B63 /* TYCyclePagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 813A983D216CAFDD00107B63 /* TYCyclePagerView.m */; };
 		813A9847216CAFDD00107B63 /* TYCyclePagerTransformLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 813A983E216CAFDD00107B63 /* TYCyclePagerTransformLayout.m */; };
+		813A9850216DDCDC00107B63 /* CNetWorkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 813A984F216DDCDC00107B63 /* CNetWorkCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		813A983D216CAFDD00107B63 /* TYCyclePagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCyclePagerView.m; sourceTree = "<group>"; };
 		813A983E216CAFDD00107B63 /* TYCyclePagerTransformLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCyclePagerTransformLayout.m; sourceTree = "<group>"; };
 		813A983F216CAFDD00107B63 /* TYPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPageControl.h; sourceTree = "<group>"; };
+		813A984E216DDCDC00107B63 /* CNetWorkCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNetWorkCache.h; sourceTree = "<group>"; };
+		813A984F216DDCDC00107B63 /* CNetWorkCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNetWorkCache.m; sourceTree = "<group>"; };
 		C0F721948C2BEF9BE0788FDB /* libPods-CommonProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CommonProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7DE5CE687AB7848CC4561E3 /* Pods-CommonProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CommonProject/Pods-CommonProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -229,6 +232,7 @@
 		813A9843216CAFDD00107B63 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				813A984D216DDCA900107B63 /* CNetworkHelper */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -277,6 +281,15 @@
 			children = (
 			);
 			path = NetService;
+			sourceTree = "<group>";
+		};
+		813A984D216DDCA900107B63 /* CNetworkHelper */ = {
+			isa = PBXGroup;
+			children = (
+				813A984E216DDCDC00107B63 /* CNetWorkCache.h */,
+				813A984F216DDCDC00107B63 /* CNetWorkCache.m */,
+			);
+			path = CNetworkHelper;
 			sourceTree = "<group>";
 		};
 		FB488DB888BB625426ED06CF /* Frameworks */ = {
@@ -488,6 +501,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				813A9846216CAFDD00107B63 /* TYCyclePagerView.m in Sources */,
+				813A9850216DDCDC00107B63 /* CNetWorkCache.m in Sources */,
 				813A9835216CAE1E00107B63 /* main.m in Sources */,
 				813A9845216CAFDD00107B63 /* TYPageControl.m in Sources */,
 				813A9847216CAFDD00107B63 /* TYCyclePagerTransformLayout.m in Sources */,
