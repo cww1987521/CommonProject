@@ -1,0 +1,19 @@
+//
+//  CommonProject-PrefixHeader.pch
+//  CommonProject
+//
+//  Created by ios on 2018/10/18.
+//  Copyright © 2018 ios. All rights reserved.
+//
+
+#ifndef CommonProject_PrefixHeader_pch
+#define CommonProject_PrefixHeader_pch
+
+#import "UtilsMacros.h"
+#import "ColorAndFontMacros.h"
+
+#import <DZNEmptyDataSet/UIScrollView+EmptyDataSet.h>
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* CommonProject_PrefixHeader_pch */

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		583ABEC6B2B5D4F9341A675E /* libPods-CommonProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F721948C2BEF9BE0788FDB /* libPods-CommonProject.a */; };
+		810A3BED217050B500E89975 /* CBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 810A3BEC217050B500E89975 /* CBaseViewController.m */; };
+		8133FBD2217728FA00DE05D1 /* CTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8133FBD1217728FA00DE05D1 /* CTableViewController.m */; };
 		813A9804216C838F00107B63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813A9802216C838F00107B63 /* Main.storyboard */; };
 		813A9806216C839100107B63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 813A9805216C839100107B63 /* Assets.xcassets */; };
 		813A9809216C839100107B63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813A9807216C839100107B63 /* LaunchScreen.storyboard */; };
@@ -15,7 +17,6 @@
 		813A9821216C839200107B63 /* CommonProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 813A9820216C839200107B63 /* CommonProjectUITests.m */; };
 		813A9834216CAE1E00107B63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 813A9830216CAE1E00107B63 /* AppDelegate.m */; };
 		813A9835216CAE1E00107B63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 813A9832216CAE1E00107B63 /* main.m */; };
-		813A9836216CAE1E00107B63 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 813A9833216CAE1E00107B63 /* Info.plist */; };
 		813A9845216CAFDD00107B63 /* TYPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 813A983C216CAFDD00107B63 /* TYPageControl.m */; };
 		813A9846216CAFDD00107B63 /* TYCyclePagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 813A983D216CAFDD00107B63 /* TYCyclePagerView.m */; };
 		813A9847216CAFDD00107B63 /* TYCyclePagerTransformLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 813A983E216CAFDD00107B63 /* TYCyclePagerTransformLayout.m */; };
@@ -41,16 +42,21 @@
 
 /* Begin PBXFileReference section */
 		1E21E05C9E1FD59E709088F3 /* Pods-CommonProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-CommonProject/Pods-CommonProject.release.xcconfig"; sourceTree = "<group>"; };
+		810A3BEB217050B500E89975 /* CBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBaseViewController.h; sourceTree = "<group>"; };
+		810A3BEC217050B500E89975 /* CBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBaseViewController.m; sourceTree = "<group>"; };
+		8133FBD0217728FA00DE05D1 /* CTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTableViewController.h; sourceTree = "<group>"; };
+		8133FBD1217728FA00DE05D1 /* CTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTableViewController.m; sourceTree = "<group>"; };
+		8133FBD321781A3100DE05D1 /* UtilsMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
+		8133FBD4217831AE00DE05D1 /* ColorAndFontMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorAndFontMacros.h; sourceTree = "<group>"; };
+		8133FBD6217856E200DE05D1 /* CommonProject-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CommonProject-PrefixHeader.pch"; sourceTree = "<group>"; };
 		813A97F9216C838F00107B63 /* CommonProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		813A9803216C838F00107B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		813A9805216C839100107B63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		813A9808216C839100107B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		813A9811216C839200107B63 /* CommonProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		813A9815216C839200107B63 /* CommonProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonProjectTests.m; sourceTree = "<group>"; };
-		813A9817216C839200107B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		813A981C216C839200107B63 /* CommonProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		813A9820216C839200107B63 /* CommonProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonProjectUITests.m; sourceTree = "<group>"; };
-		813A9822216C839200107B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		813A982F216CAE1E00107B63 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		813A9830216CAE1E00107B63 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		813A9832216CAE1E00107B63 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -145,7 +151,6 @@
 			isa = PBXGroup;
 			children = (
 				813A9815216C839200107B63 /* CommonProjectTests.m */,
-				813A9817216C839200107B63 /* Info.plist */,
 			);
 			path = CommonProjectTests;
 			sourceTree = "<group>";
@@ -154,7 +159,6 @@
 			isa = PBXGroup;
 			children = (
 				813A9820216C839200107B63 /* CommonProjectUITests.m */,
-				813A9822216C839200107B63 /* Info.plist */,
 			);
 			path = CommonProjectUITests;
 			sourceTree = "<group>";
@@ -173,6 +177,7 @@
 			children = (
 				813A9832216CAE1E00107B63 /* main.m */,
 				813A9833216CAE1E00107B63 /* Info.plist */,
+				8133FBD6217856E200DE05D1 /* CommonProject-PrefixHeader.pch */,
 			);
 			path = SupportingFile;
 			sourceTree = "<group>";
@@ -182,6 +187,10 @@
 			children = (
 				813A9807216C839100107B63 /* LaunchScreen.storyboard */,
 				813A9802216C838F00107B63 /* Main.storyboard */,
+				810A3BEB217050B500E89975 /* CBaseViewController.h */,
+				810A3BEC217050B500E89975 /* CBaseViewController.m */,
+				8133FBD0217728FA00DE05D1 /* CTableViewController.h */,
+				8133FBD1217728FA00DE05D1 /* CTableViewController.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -225,6 +234,8 @@
 		813A9842216CAFDD00107B63 /* Macros */ = {
 			isa = PBXGroup;
 			children = (
+				8133FBD321781A3100DE05D1 /* UtilsMacros.h */,
+				8133FBD4217831AE00DE05D1 /* ColorAndFontMacros.h */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
@@ -406,7 +417,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				813A9836216CAE1E00107B63 /* Info.plist in Resources */,
 				813A9809216C839100107B63 /* LaunchScreen.storyboard in Resources */,
 				813A9806216C839100107B63 /* Assets.xcassets in Resources */,
 				813A9804216C838F00107B63 /* Main.storyboard in Resources */,
@@ -501,7 +511,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				813A9846216CAFDD00107B63 /* TYCyclePagerView.m in Sources */,
+				810A3BED217050B500E89975 /* CBaseViewController.m in Sources */,
 				813A9850216DDCDC00107B63 /* CNetWorkCache.m in Sources */,
+				8133FBD2217728FA00DE05D1 /* CTableViewController.m in Sources */,
 				813A9835216CAE1E00107B63 /* main.m in Sources */,
 				813A9845216CAFDD00107B63 /* TYPageControl.m in Sources */,
 				813A9847216CAFDD00107B63 /* TYCyclePagerTransformLayout.m in Sources */,
@@ -679,7 +691,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9YCAZ2B4X7;
-				INFOPLIST_FILE = CommonProject/Info.plist;
+				GCC_PREFIX_HEADER = "/Users/ios/CommonProject/CommonProject/CommonProject/SupportingFile/CommonProject-PrefixHeader.pch";
+				INFOPLIST_FILE = /Users/ios/CommonProject/CommonProject/CommonProject/SupportingFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -697,7 +710,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9YCAZ2B4X7;
-				INFOPLIST_FILE = CommonProject/Info.plist;
+				GCC_PREFIX_HEADER = "/Users/ios/CommonProject/CommonProject/CommonProject/SupportingFile/CommonProject-PrefixHeader.pch";
+				INFOPLIST_FILE = /Users/ios/CommonProject/CommonProject/CommonProject/SupportingFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
