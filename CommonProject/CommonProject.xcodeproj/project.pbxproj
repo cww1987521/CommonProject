@@ -10,6 +10,7 @@
 		583ABEC6B2B5D4F9341A675E /* libPods-CommonProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F721948C2BEF9BE0788FDB /* libPods-CommonProject.a */; };
 		810A3BED217050B500E89975 /* CBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 810A3BEC217050B500E89975 /* CBaseViewController.m */; };
 		8133FBD2217728FA00DE05D1 /* CTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8133FBD1217728FA00DE05D1 /* CTableViewController.m */; };
+		8133FBD92179792400DE05D1 /* CCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8133FBD82179792400DE05D1 /* CCollectionViewController.m */; };
 		813A9804216C838F00107B63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813A9802216C838F00107B63 /* Main.storyboard */; };
 		813A9806216C839100107B63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 813A9805216C839100107B63 /* Assets.xcassets */; };
 		813A9809216C839100107B63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813A9807216C839100107B63 /* LaunchScreen.storyboard */; };
@@ -49,6 +50,8 @@
 		8133FBD321781A3100DE05D1 /* UtilsMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
 		8133FBD4217831AE00DE05D1 /* ColorAndFontMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorAndFontMacros.h; sourceTree = "<group>"; };
 		8133FBD6217856E200DE05D1 /* CommonProject-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CommonProject-PrefixHeader.pch"; sourceTree = "<group>"; };
+		8133FBD72179792400DE05D1 /* CCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCollectionViewController.h; sourceTree = "<group>"; };
+		8133FBD82179792400DE05D1 /* CCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCollectionViewController.m; sourceTree = "<group>"; };
 		813A97F9216C838F00107B63 /* CommonProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		813A9803216C838F00107B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		813A9805216C839100107B63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -191,6 +194,8 @@
 				810A3BEC217050B500E89975 /* CBaseViewController.m */,
 				8133FBD0217728FA00DE05D1 /* CTableViewController.h */,
 				8133FBD1217728FA00DE05D1 /* CTableViewController.m */,
+				8133FBD72179792400DE05D1 /* CCollectionViewController.h */,
+				8133FBD82179792400DE05D1 /* CCollectionViewController.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -518,6 +523,7 @@
 				813A9845216CAFDD00107B63 /* TYPageControl.m in Sources */,
 				813A9847216CAFDD00107B63 /* TYCyclePagerTransformLayout.m in Sources */,
 				813A9834216CAE1E00107B63 /* AppDelegate.m in Sources */,
+				8133FBD92179792400DE05D1 /* CCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
